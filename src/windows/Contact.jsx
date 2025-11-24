@@ -10,7 +10,7 @@ const Contact = () => {
                 <h2>Contact Me</h2>
             </div>
             <div className="p-5 space-y-5">
-                <img src="images/adrian.jpg" alt="Omkar" className="w-20 rounded-full" />
+                <img src="images/omkar1.jpg" alt="Omkar" className="w-20 rounded-full" />
                 <h3>Let's Connect</h3>
                 <p>Got an idea? A bug to Squash? Or just wanna talk tech? I'm in.</p>
                 <p>omkarghadge2454@gmail.com</p>

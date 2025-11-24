@@ -77,25 +77,10 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-    },
-    {
-        id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-    },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        date: "Dec 2024",
+        title: "Movies Database App - Discover Movies & TV Shows in Real-time",
+        image: "/images/movies-app.png",
+        link: "https://movies-database-app.vercel.app/",
     },
 ];
 
@@ -110,7 +95,7 @@ const techStack = [
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express"],
+        items: ["Node.js", "Express.js"],
     },
     {
         category: "Database",
@@ -118,7 +103,7 @@ const techStack = [
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Postman"],
+        items: ["Git", "GitHub", "Postman", "Jest"],
     },
 ];
 
@@ -128,28 +113,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/OmkarGhadge24/",
     },
     {
         id: 2,
-        text: "Platform",
+        text: "Portfolio",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://refokus-work-page.netlify.app/",
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        text: "LeetCode",
+        icon: "/icons/leetcode.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://leetcode.com/u/Omkar2454/",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://linkedin.com/in/omkar-ghadge-996b80317/",
     },
 ];
 
@@ -218,63 +203,53 @@ const WORK_LOCATION = {
     icon: "/icons/work.svg",
     kind: "folder",
     children: [
-        // ▶ Project 1
+        // ▶ Project 1 – Movies Database App
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Movies Database App",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            position: "top-10 left-5",
+            windowPosition: "top-[5vh] left-5",
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Movies App.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "A Movies & TV Show discovery platform built using React.js and Tailwind CSS.",
+                        "Features real-time data fetching from The Movie Database (TMDB) API, with search, filter and detailed views of movies and shows.",
+                        "Responsive design with a streaming-style interface for desktop and mobile.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "movies-database-app.vercel.app",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    href: "https://movies-database-app.vercel.app/",
                     position: "top-10 right-20",
                 },
                 {
-                    id: 4,
-                    name: "nike.png",
+                    id: 3,
+                    name: "movies-app.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    imageUrl: "/images/movies-app.png",
                 },
             ],
         },
 
-        // ▶ Project 2
+        // ▶ Project 2 – Toolify
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Toolify - Advanced Utility Tools Platform",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -282,52 +257,42 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "Toolify Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 right-10",
                     description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "Toolify is a comprehensive web-based platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) offering multiple essential file-processing tools in one place.",
+                        "Includes Background Remover, File Converter, Text Extractor (OCR), Video Editor / Video-to-Audio, PDF Editor & more.",
+                        "Backend uses Express + MongoDB + APIs (Remove.bg, ConvertAPI, Ninja OCR) and frontend is built using React + Tailwind CSS.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "github.com/toolify",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-                    position: "top-20 left-20",
+                    href: "https://github.com/OmkarGhadge24/toolify",
+                    position: "top-10 right-80",
                 },
                 {
-                    id: 4,
-                    name: "ai-resume-analyzer.png",
+                    id: 3,
+                    name: "toolify.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
-                    position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 left-5",
+                    position: "top-52 right-80",
+                    imageUrl: "/images/toolify.png",
                 },
             ],
         },
 
-        // ▶ Project 3
+        // ▶ Project 3 – URL Shortener
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "URL Shortener",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -335,49 +300,40 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "URL Shortener Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "URL Shortener is a lightweight application built to shorten, track and manage URLs efficiently.",
+                        "Users can create shortened URLs, access analytics, and optionally manage custom aliases.",
+                        "Built using Node.js and Express on the backend, with a React frontend for the user interface.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "github.com/url-shortener",
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    href: "https://github.com/OmkarGhadge24/url-shortener",
                     position: "top-10 right-20",
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "url-shortener.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
+                    imageUrl: "/images/url-shortener.png",
                 },
             ],
         },
     ],
 };
+
 
 const ABOUT_LOCATION = {
     id: 2,
@@ -393,44 +349,27 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/omkar1.jpg",
         },
         {
             id: 2,
-            name: "casual-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
-        },
-        {
-            id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
-        },
-        {
-            id: 4,
             name: "about-me.txt",
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
-            position: "top-60 left-5",
+            position: "top-60 left-75",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/omkar1.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I'm Omkar 👋, a passionate Full Stack Web Developer who enjoys turning ideas into functional and visually clean web applications.",
+                "I mainly work with the MERN stack (MongoDB, Express.js, React.js, Node.js), and I love building projects that are practical, scalable, and performance focused.",
+                "I enjoy working with real-world problems and converting them into modern UI/UX-focused applications like Toolify, URL Shortener, and Movies Database App.",
+                "Apart from coding, you'll find me exploring new tools, improving my skills, solving problems on LeetCode, or experimenting with design and animations using GSAP.",
             ],
         },
     ],
 };
+
 
 const RESUME_LOCATION = {
     id: 3,
@@ -445,8 +384,6 @@ const RESUME_LOCATION = {
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
-            // you can add href if you want to open a hosted resume
-            // href: "/your/resume/path.pdf",
         },
     ],
 };
