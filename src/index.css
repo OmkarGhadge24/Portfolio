@@ -271,6 +271,10 @@ body {
       ul {
         @apply grid grid-cols-5 grid-rows-5 gap-2.5;
 
+        &.single {
+          @apply grid-cols-1 grid-rows-1 justify-items-start;
+        }
+
         li {
           img {
             @apply size-full object-cover rounded-lg;
@@ -291,6 +295,10 @@ body {
           &:last-child {
             @apply row-start-4 row-span-2 col-start-1 col-span-2;
           }
+      }
+
+      ul.single li:first-child {
+        @apply row-start-1 row-span-1 col-start-1 col-span-1;
         }
       }
     }

@@ -8,7 +8,7 @@ const Text = () => {
 
   if (!data) return null;
 
-  const { name, image, subtitle, description } = data;
+  const { name, image, subtitle, description = [] } = data;
 
   return (
     <>
