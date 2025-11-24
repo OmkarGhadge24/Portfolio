@@ -441,7 +441,7 @@ const RESUME_LOCATION = {
     children: [
         {
             id: 1,
-            name: "Resume.pdf",
+            name: "OMKAR GHADGE.pdf",
             icon: "/images/pdf.png",
             kind: "file",
             fileType: "pdf",
